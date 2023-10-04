@@ -1,0 +1,222 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.topo{
+    padding: 35px 0px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.link{
+    right: 400px;
+    top: 60px;
+}
+
+.link-black{
+    text-decoration: none;
+    color: black;
+    padding: 0 7px;
+    position: relative;
+}
+
+.link-black::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: rgb(66, 186, 255);
+    position: absolute;
+    bottom: 0;
+    left: 6px;
+    transition: 0.5s ease-in-out;
+}
+
+.link-black:hover::after{
+    width: 82%;
+}
+
+.alfa1{
+    line-height: 8px;
+    display: flex;
+}
+
+.texto-alfa{
+    display: inline-block;
+}
+
+.logo{
+    width: 60px;
+}
+
+span{
+    color: rgb(0, 132, 255);
+}
+
+.banner{
+    background-color: rgb(66, 186, 255);
+    height: 660px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img-banner{
+    width: 500px;
+}
+
+.text-banner{
+    width: 500px;
+    color: white;
+}
+
+.anuncio1{
+    background-color: #23313E;
+    color: white;
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.link_anuncio{
+    background-color: rgb(66, 186, 255);
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.img-info{
+    width: 200px;
+}
+
+.info{
+    width: 33%;
+}
+
+.informacoes{
+    height: 650px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    justify-content: space-around;
+}
+
+.info-geral{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.title-info{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.planos{
+    text-align: center;
+    background-color: #F1F3F7;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.title-planos, .tabela_planos{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.img-tabela{
+    width: 35%;
+}
+
+table{
+    border-collapse: collapse;
+    box-shadow: -1px -1px 60px rgb(3, 133, 255);
+}
+
+.espaço1, .espaço2{
+    border-left:1px #F1F3F7 solid;
+    border-right:1px #F1F3F7 solid;
+}
+
+.espaço1{
+    padding: 8px 0;
+}
+
+.espaço2{
+    padding: 20px 0;
+}
+
+.coluna1{
+    background-color: white;
+}
+
+.coluna2{
+    background-color: #F1F3F7;
+}
+
+.planos{
+    padding: 150px 0;
+}
+
+.anuncio2{
+    background-color: rgb(66, 186, 255);
+    color: white;
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.link_anuncio2{
+    background-color: #23313E;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.rodape{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+.alfa2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-alfa2{
+    display: block;
+    line-height: 5px;
+}
+
+.logo-baixo{
+    width: 60px;
+}
+
+.creditos{
+    text-align: center;
+    background-color: #F1F3F7;
+    padding: 2px 0;
+}
+
